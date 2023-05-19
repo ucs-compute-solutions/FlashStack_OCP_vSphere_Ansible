@@ -1,0 +1,11 @@
+- name: Add a VMWare vSwitch with multiple NICs
+  community.vmware.vmware_vswitch:
+    hostname: '{{ vcenter_hostname }}'
+    username: '{{ vcenter_username }}'
+    password: '{{ vcenter_password }}'
+    switch: OCP-Traffic
+    nics:
+    - vmnic4
+    - vmnic5
+    mtu: 9000
+  delegate_to: localhost
