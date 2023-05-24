@@ -13,7 +13,7 @@ org_name      : "default"
 
  
 # Prefix added to the pool/policy/profile configuration to eaisly identify items created by Ansible
-prefix        : OpenShift
+prefix        : FlashStack
 
 
 # Commenting out the following three variables will skip the iSCSI and/or FC configurations
