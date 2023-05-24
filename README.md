@@ -91,9 +91,9 @@ All the variables used in this framework are defined in the following locations:
 
 ### Playbook Execution Commands
 
-1.	Setup Pools in Intersight: `ansible-playbook Setup_Server_Pools.yml -i inventory`
-2.	Setup Policies in Intersight: `ansible-playbook Setup_Server_Policies.yml -i inventory`
-3.	Setup Server Profile Template(s) in Intersight: `ansible-playbook Setup_Server_Profile_Template.yml -i inventory`
+1.	Setup Pools in Intersight: `ansible-playbook Setup_Intersight_Server_Pools.yml -i inventory`
+2.	Setup Policies in Intersight: `ansible-playbook Setup_Intersight_Server_Policies.yml -i inventory`
+3.	Setup Server Profile Template(s) in Intersight: `ansible-playbook Setup_Intersight_Server_Profile_Template.yml -i inventory`
 4.	Setup LAN on Nexus: `ansible-playbook ./Setup_Nexus.yml -i inventory`
 5.	Setup MDS: `ansible-playbook Setup_MDS.yml -i inventory`
 6.	Setup Pure FlashArray: `ansible-playbook Setup_Pure.yml -i inventory`
